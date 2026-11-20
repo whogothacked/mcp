@@ -50,6 +50,18 @@ claude mcp add --transport http whogothacked https://whogothacked.com/mcp
 }
 ```
 
+**Kiro:** [![Add to Kiro](https://kiro.dev/images/add-to-kiro.svg)](https://kiro.dev/launch/mcp/add?name=whogothacked&config=%7B%22url%22%3A%22https%3A%2F%2Fwhogothacked.com%2Fmcp%22%2C%22disabled%22%3Afalse%2C%22autoApprove%22%3A%5B%5D%7D), or add the server to `.kiro/settings/mcp.json`:
+
+```json
+{
+  "mcpServers": {
+    "whogothacked": {
+      "url": "https://whogothacked.com/mcp"
+    }
+  }
+}
+```
+
 **VS Code and other clients** that read an `mcpServers` file (for example a workspace `.mcp.json`):
 
 ```json
@@ -65,7 +77,7 @@ claude mcp add --transport http whogothacked https://whogothacked.com/mcp
 
 ## Terms and limits
 
-Using the server means accepting the terms: https://whogothacked.com/terms. Each IP address can make 300 requests a minute to the MCP server. Over that, the answer is HTTP 429 Too Many Requests: wait 60 seconds before trying again. Privacy: https://whogothacked.com/privacy. Corrections: https://whogothacked.com/corrections.
+Using the server means accepting the terms: https://whogothacked.com/terms. Each IP address can make 300 requests a minute to the MCP server. Over that, the answer is HTTP 429 Too Many Requests: wait 60 seconds before trying again. Privacy policy: https://whogothacked.com/privacy. Support: hello@whogothacked.com. Corrections to a record: https://whogothacked.com/corrections.
 
 The same records are available as a JSON API, with no key: https://whogothacked.com/developers.
 
