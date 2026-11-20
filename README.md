@@ -62,6 +62,12 @@ claude mcp add --transport http whogothacked https://whogothacked.com/mcp
 }
 ```
 
+**Gemini CLI:** install this repository as an extension:
+
+```bash
+gemini extensions install https://github.com/whogothacked/mcp
+```
+
 **VS Code and other clients** that read an `mcpServers` file (for example a workspace `.mcp.json`):
 
 ```json
@@ -85,6 +91,7 @@ The same records are available as a JSON API, with no key: https://whogothacked.
 
 - `mcp.json`: the server entry Cursor plugins and other clients read.
 - `.cursor-plugin/plugin.json`: the Cursor plugin manifest.
+- `gemini-extension.json`: the Gemini CLI extension manifest.
 - `server.json`: a copy of the entry published to the Official MCP Registry.
 - `assets/logo.png`: the logo.
 

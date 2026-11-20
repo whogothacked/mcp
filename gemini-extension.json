@@ -1,0 +1,10 @@
+{
+  "name": "whogothacked",
+  "version": "1.0.0",
+  "description": "Data breach records, each linked to a US regulator filing or Have I Been Pwned. Search organizations, check a domain or name, list recent incidents. Read-only, no sign-in.",
+  "mcpServers": {
+    "whogothacked": {
+      "httpUrl": "https://whogothacked.com/mcp"
+    }
+  }
+}
