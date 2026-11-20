@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.whogothacked/mcp",
+  "title": "Who Got Hacked",
+  "description": "Data breach records, each linked to a regulator filing or Have I Been Pwned.",
+  "version": "1.0.0",
+  "websiteUrl": "https://whogothacked.com/developers",
+  "icons": [
+    {
+      "src": "https://whogothacked.com/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://whogothacked.com/mcp"
+    }
+  ]
+}

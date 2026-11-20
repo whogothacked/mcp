@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "whogothacked": {
+      "type": "http",
+      "url": "https://whogothacked.com/mcp"
+    }
+  }
+}

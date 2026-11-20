@@ -1,0 +1,16 @@
+{
+  "name": "whogothacked",
+  "displayName": "Who Got Hacked",
+  "version": "1.0.0",
+  "description": "Data breach records, each linked to a US regulator filing or Have I Been Pwned. Search organizations, check a domain or name, list recent incidents.",
+  "author": {
+    "name": "Who Got Hacked",
+    "email": "hello@whogothacked.com"
+  },
+  "homepage": "https://whogothacked.com",
+  "repository": "https://github.com/whogothacked/mcp",
+  "license": "MIT",
+  "logo": "assets/logo.png",
+  "keywords": ["data breach", "security", "cybersecurity", "breach notification", "vendor risk", "osint"],
+  "mcpServers": "./mcp.json"
+}
